@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.15.0"
+  required_version = ">= 1.5.0"
 
   required_providers {
     aws = {
@@ -11,6 +11,11 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+}
+
+# Available AZs in the selected region
+data "aws_availability_zones" "available" {
+  state = "available"
 }
 
 # VPC
@@ -26,7 +31,7 @@ resource "aws_subnet" "p4_subnet" {
   vpc_id                  = aws_vpc.p4_vpc.id
   cidr_block              = "10.0.1.0/24"
   map_public_ip_on_launch = true
-  availability_zone       = "us-east-1a"
+  availability_zone       = data.aws_availability_zones.available.names[0]
 
   tags = {
     Name = "${var.project_name}-subnet"
