@@ -22,7 +22,7 @@ resource "aws_instance" "p4_ec2" {
   iam_instance_profile = aws_iam_instance_profile.p4_instance_profile.name
 
   # Install and configure app + Nginx + CloudWatch
-  user_data = file("${path.module}/09-user_data.sh")
+  user_data = file("${path.module}/07-user_data.sh")
 
   # IAM + SG 
   depends_on = [
