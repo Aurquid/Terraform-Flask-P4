@@ -21,8 +21,13 @@ This project deploys a production-style Python Flask app on a hardened AWS Linux
 * SSM
 * Cloudwatch
 # How It Works
+
 # Security
+
 # Cost Breakdown
+
 # Failure Scenarios
+
 # Lessons Learned
+
 # Screenshots
