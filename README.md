@@ -13,6 +13,7 @@ This project deploys a production-style Python Flask app on a hardened AWS Linux
 - [Screenshots](#screenshots)
 # Architecture Diagram
 <img width="1151" height="706" alt="P4Flask" src="https://github.com/user-attachments/assets/76d42e91-32a5-452d-b46c-af4c502c2ce1" />
+
 # Services Used
 * VPC
 * EC2
