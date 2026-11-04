@@ -1,5 +1,5 @@
 # Overview
-This project deploys a production-style Python Flask app on a hardened AWS Linux EC2 instance via Terraform. The instance is hardened with OS patching, secure package installation, and SSM role access without SSH. User-data bootstraps the Flask app, configures a systemd service, sets up Nginx reverse proxy for stable routing. A CloudWatch agent is used to collect logs for monitoring
+This project deploys a Python Flask app on a AWS Linux EC2 instance via Terraform. At boot, a user-data script patches the OS, installs the app, runs it as a systemd service, and has Nginx in front as a reverse proxy on port 80. The system is accessed through SSM using an IAM role, with no SSH access. A CloudWatch agent sends Nginx logs to CloudWatch for monitoring.
 # Table of Contents
 - [Overview](#overview)
 - [Architecture Diagram](#architecture-diagram)
