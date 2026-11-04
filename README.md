@@ -12,7 +12,8 @@ This project deploys a Python Flask app on a AWS Linux EC2 instance via Terrafor
 - [Lessons Learned](#lessons-learned)
 - [Screenshots](#screenshots)
 # Architecture Diagram
-<img width="1151" height="706" alt="P4Flask" src="https://github.com/user-attachments/assets/76d42e91-32a5-452d-b46c-af4c502c2ce1" />
+<img width="1151" height="706" alt="P4Flask (1)" src="https://github.com/user-attachments/assets/0dd6f9ca-97d4-4b7b-b2c7-f65609b1b74b" />
+
 
 # Services Used
 * VPC
