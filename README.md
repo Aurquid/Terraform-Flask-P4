@@ -44,6 +44,7 @@ This project deploys a Python Flask app on a AWS Linux EC2 instance via Terrafor
 <img width="761" height="395" alt="Screenshot 2026-11-05 154636" src="https://github.com/user-attachments/assets/ec755c19-724f-43e8-b7a3-8c1924bc5478" />
 <img width="897" height="329" alt="Screenshot 2026-11-05 155022" src="https://github.com/user-attachments/assets/4db92498-0736-4c5c-b6f0-9d5dc6869341" />
 <img width="1091" height="322" alt="Screenshot 2026-11-05 155414" src="https://github.com/user-attachments/assets/bcd137ab-cc47-4a36-8ca0-2745d5d2574e" />
+test
 <img width="1104" height="461" alt="Screenshot 2026-11-05 155722" src="https://github.com/user-attachments/assets/27f05c1f-bdff-4ce5-8ea8-90aa1fb99bad" />
 <img width="1092" height="461" alt="Screenshot 2026-11-05 160033" src="https://github.com/user-attachments/assets/63c5c420-3a06-4aba-b4d1-8f5de31c0d6d" />
 <img width="396" height="151" alt="Screenshot 2026-11-05 160234" src="https://github.com/user-attachments/assets/6947bf51-4056-4457-a511-77b83bbec882" />
